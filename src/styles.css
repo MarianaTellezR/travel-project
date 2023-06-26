@@ -117,6 +117,12 @@ footer li {
 footer a {
   color: white;
   opacity: 0.75;
+  transition: all 120ms ease;
+}
+
+footer a:hover {
+  color: rgb(252, 232, 255);
+  opacity: 0.9;
 }
 
 .personal-info {
