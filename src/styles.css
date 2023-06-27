@@ -70,6 +70,7 @@ header a:hover {
 
 section {
   max-width: 1400px;
+  width: 90%;
   margin: 0 auto;
   padding: 100px 0;
 }
@@ -103,6 +104,7 @@ main p {
   line-height: 1.5;
   color: #522d53;
   opacity: 0.9;
+  text-align: justify;
 }
 
 .img-responsive {
@@ -195,5 +197,12 @@ footer a:hover {
   .grid {
     grid-template-columns: 1fr;
     grid-gap: 32px;
+  }
+  .img-responsive {
+    max-width: 75%;
+    height: auto;
+
+    display: block;
+    margin: 0 auto;
   }
 }
