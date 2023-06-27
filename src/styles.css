@@ -264,6 +264,7 @@ footer a:hover {
   .instagram-embeds .grid-3-columns {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    
   }
 }
 @media (max-width: 960px) {
