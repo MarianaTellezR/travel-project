@@ -7,7 +7,6 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),
     url("../images/tokyo-6.jpg");
@@ -160,7 +159,7 @@ main p {
 }
 
 .instagram-embeds {
-  margin: 30px 0;
+  margin: 30px;
 }
 .card {
   background-color: white;
@@ -258,6 +257,12 @@ footer a:hover {
   padding: 15px 0;
 }
 
+@media (max-width: 1350px) {
+  .instagram-embeds .grid-3-columns {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+}
 @media (max-width: 960px) {
   header {
     padding: 60px 0;
@@ -280,6 +285,12 @@ footer a:hover {
   .grid {
     grid-template-columns: 1fr;
     grid-gap: 32px;
+  }
+  .instagram-embeds {
+    margin: 30px 10px;
+  }
+  .instagram-embeds .grid-3-columns {
+    grid-template-columns: 1fr;
   }
   .img-responsive {
     max-width: 75%;
